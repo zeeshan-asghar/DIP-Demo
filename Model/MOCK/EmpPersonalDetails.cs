@@ -34,6 +34,11 @@ namespace Model.MOCK
         {
             throw new NotImplementedException();
         }
+
+        float IEmpPersonalDetails.GetEmployeeSalary(int employeeId)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public interface IEmpPersonalDetails

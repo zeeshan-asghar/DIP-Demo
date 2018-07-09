@@ -15,6 +15,10 @@ namespace Model.MOCK
             this.empPersonalDetails = empPersonalDetails;
         }
 
+        public EmpPfDetails()
+        {
+        }
+
         public int GetEmployerCOntribution(object empid)
         {
             throw new NotImplementedException();
@@ -49,6 +53,11 @@ namespace Model.MOCK
 
 
             return totalDuration * contribution;
+        }
+
+        public int GetEmployerCOntribution(int empid)
+        {
+            throw new NotImplementedException();
         }
     }
 
